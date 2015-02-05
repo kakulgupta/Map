@@ -1,3 +1,4 @@
+#parses the inputs given by user
 class Parser
   attr_reader :commands
   def initialize(command)
@@ -7,5 +8,5 @@ class Parser
   def return_commands
     @commands
   end
-  
+
 end

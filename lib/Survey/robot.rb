@@ -1,25 +1,14 @@
+#creates a robot and performs move operations
 class Robot
   attr_reader :x, :y, :orientation
   def initialize(x, y, orientation)
-    @x = x
-    @y = y
+    @x = x.to_i
+    @y = y.to_i
     @orientation = orientation
   end
 
   def current_pos
     return [@x, @y, @orientation]  
-  end
-
-  def ==(other)
-    self.x == other.x
-    self.y == other.y
-    self.orientation == other.orientation
-  end
-
-  def eql?(other)
-    self.x == other.x
-    self.y == other.y
-    self.orientation == other.orientation
   end
 
   def move_left
@@ -38,7 +27,7 @@ class Robot
       @x = @x - 1   
     end
 
-    return self
+    self.current_pos
   end
 
   def move_right
@@ -57,7 +46,7 @@ class Robot
       @x = @x + 1   
     end
 
-    return self
+    self.current_pos
   end
 
    def move
@@ -72,7 +61,7 @@ class Robot
       @y = @y + 1  
     end
 
-    return self
+    self.current_pos
   end
 
 end

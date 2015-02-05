@@ -1,3 +1,4 @@
+#creates a plain from given x, y coordinates
 class Plain
   attr_reader :x, :y
   def initialize(x, y)
