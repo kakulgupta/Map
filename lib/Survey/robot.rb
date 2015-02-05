@@ -60,4 +60,19 @@ class Robot
     return self
   end
 
+   def move
+
+    if @orientation == "east"
+      @x = @x + 1
+    elsif orientation == "west"
+      @x = @x - 1
+    elsif orientation == "north"
+      @y = @y + 1
+    elsif orientation == "south"
+      @y = @y + 1  
+    end
+
+    return self
+  end
+
 end
