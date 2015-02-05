@@ -1,12 +1,12 @@
 class Plain
-
+  attr_reader :x, :y
   def initialize(x, y)
     @x = x
-    @y =y
+    @y = y
   end
 
   def upper_right
-    return self
+    [@x, @y]
   end
 
   
