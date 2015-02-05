@@ -21,14 +21,18 @@ class Application
     xmax = upper_right_cord[0].to_i
     ymax = upper_right_cord[1].to_i
     i = 0
-    while i < commands_list.length
+    len = commands_list.length
+    while i < len do
     
       if commands_list[i] == "move"
         init_robot.move(xmax, ymax)
+
       elsif commands_list[i] == "right"
         init_robot.move_right(xmax, ymax)
+
       elsif commands_list[i] == "left"
         init_robot.move_left(xmax, ymax)
+
       end
 
       i = i + 1
