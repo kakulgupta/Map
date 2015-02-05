@@ -2,6 +2,7 @@
   "RSpec": {
     "coverage": {
       "/Users/kakulgupta/Desktop/RUBY/Map/lib/Survey.rb": [
+        1,
         1
       ],
       "/Users/kakulgupta/Desktop/RUBY/Map/lib/survey/plain.rb": [
@@ -19,12 +20,30 @@
         null,
         null
       ],
+      "/Users/kakulgupta/Desktop/RUBY/Map/lib/survey/robot.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/kakulgupta/Desktop/RUBY/Map/spec/Survey/robot_spec.rb": [
         1,
         null,
-        1
+        1,
+        2,
+        1,
+        1,
+        null,
+        null,
+        null
       ]
     },
-    "timestamp": 1423113090
+    "timestamp": 1423113433
   }
 }
