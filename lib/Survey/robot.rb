@@ -6,8 +6,8 @@ class Robot
     @orientation = orientation
   end
 
-  def initial_pos
-    return self  
+  def current_pos
+    return [@x, @y, @orientation]  
   end
 
   def ==(other)
