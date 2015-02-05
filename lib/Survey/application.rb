@@ -16,7 +16,7 @@ class Application
     upper_right_cord = new_plain.return_commands
     plain = Plain.new(upper_right_cord[0].to_i, upper_right_cord[1].to_i)
     robot_cord_init = starting.return_commands
-    init_robot = Robot.new(robot_cord_init[0].to_i,robot_cord_init[1].to_i, robot_cord_init[2])
+    init_robot = Robot.new(robot_cord_init[0].to_i, robot_cord_init[1].to_i, robot_cord_init[2])
     commands_list = commands.return_commands
     xmax = upper_right_cord[0].to_i
     ymax = upper_right_cord[1].to_i
