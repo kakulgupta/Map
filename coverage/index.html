@@ -14,18 +14,18 @@
       <img src="./assets/0.8.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2015-02-05T12:37:24+05:30">2015-02-05T12:37:24+05:30</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2015-02-05T13:06:11+05:30">2015-02-05T13:06:11+05:30</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">30.49%</span></span>
+    (<span class="covered_percent"><span class="red">29.27%</span></span>
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.32
+         0.3
        </span>
     </span> hits/line)
   </h2>
@@ -33,8 +33,8 @@
   <div>
     <b>5</b> files in total.
     <b>82</b> relevant lines. 
-    <span class="green"><b>25</b> lines covered</span> and
-    <span class="red"><b>57</b> lines missed </span>
+    <span class="green"><b>24</b> lines covered</span> and
+    <span class="red"><b>58</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -62,22 +62,22 @@
       
       <tr>
         <td class="strong"><a href="#2ce61aea449409553c612141567ee8da3acf4965" class="src_link" title="lib/survey/application.rb">lib/survey/application.rb</a></td>
-        <td class="red strong">17.86 %</td>
-        <td>44</td>
+        <td class="red strong">10.71 %</td>
+        <td>42</td>
         <td>28</td>
-        <td>5</td>
-        <td>23</td>
-        <td>0.2</td>
+        <td>3</td>
+        <td>25</td>
+        <td>0.1</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#bea33dd781bf6c164addec6a20deafb08ecb730e" class="src_link" title="lib/survey/parser.rb">lib/survey/parser.rb</a></td>
-        <td class="yellow strong">83.33 %</td>
+        <td class="green strong">100.0 %</td>
         <td>12</td>
         <td>6</td>
-        <td>5</td>
-        <td>1</td>
-        <td>0.8</td>
+        <td>6</td>
+        <td>0</td>
+        <td>1.0</td>
       </tr>
       
       <tr>
@@ -161,11 +161,11 @@
         <div class="source_table" id="2ce61aea449409553c612141567ee8da3acf4965">
   <div class="header">
     <h3>lib/survey/application.rb</h3>
-    <h4><span class="red">17.86 %</span> covered</h4>
+    <h4><span class="red">10.71 %</span> covered</h4>
     <div>
       <b>28</b> relevant lines. 
-      <span class="green"><b>5</b> lines covered</span> and
-      <span class="red"><b>23</b> lines missed.</span>
+      <span class="green"><b>3</b> lines covered</span> and
+      <span class="red"><b>25</b> lines missed.</span>
     </div>
   </div>
   
@@ -193,31 +193,31 @@
         <li class="covered" data-hits="1" data-linenumber="4">
           <span class="hits">1</span>
           
-          <code class="ruby">  def initialize</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="5">
-          <span class="hits">1</span>
-          
-          <code class="ruby">     @robo = Robot.new</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="6">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="7">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="8">
-          <span class="hits">1</span>
-          
           <code class="ruby">  def start</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="5">
+          
+          
+          <code class="ruby">    print &quot;$ &quot;</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="6">
+          
+          
+          <code class="ruby">    input1 = gets.chomp</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="7">
+          
+          
+          <code class="ruby">    print &quot;$ &quot;</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="8">
+          
+          
+          <code class="ruby">    input2 = gets.chomp</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="9">
@@ -229,208 +229,196 @@
         <li class="missed" data-hits="0" data-linenumber="10">
           
           
-          <code class="ruby">    input1 = gets.chomp</code>
+          <code class="ruby">    input3 = gets.chomp</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="11">
+        <li class="never" data-hits="" data-linenumber="11">
           
           
-          <code class="ruby">    print &quot;$ &quot;</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="12">
           
           
-          <code class="ruby">    input2 = gets.chomp</code>
+          <code class="ruby">    new_plain = Parser.new(input1)</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="13">
           
           
-          <code class="ruby">    print &quot;$ &quot;</code>
+          <code class="ruby">    starting = Parser.new(input2)</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="14">
           
           
-          <code class="ruby">    input3 = gets.chomp</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="15">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="16">
-          
-          
-          <code class="ruby">    new_plain = Parser.new(input1)</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="17">
-          
-          
-          <code class="ruby">    starting = Parser.new(input2)</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="18">
-          
-          
           <code class="ruby">    commands = Parser.new(input3)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="19">
+        <li class="missed" data-hits="0" data-linenumber="15">
           
           
           <code class="ruby">    upper_right_cord = new_plain.return_commands</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="20">
+        <li class="missed" data-hits="0" data-linenumber="16">
           
           
-          <code class="ruby">    plain = Plain.new(upper_right_cord[0], upper_right_cord[1])</code>
+          <code class="ruby">    plain = Plain.new(upper_right_cord[0].to_i, upper_right_cord[1].to_i)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="21">
+        <li class="missed" data-hits="0" data-linenumber="17">
           
           
           <code class="ruby">    robot_cord_init = starting.return_commands</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="22">
+        <li class="missed" data-hits="0" data-linenumber="18">
           
           
-          <code class="ruby">    init_robot = Robot.new(robot_cord_init[0],robot_cord_init[1], robot_cord_init[2])</code>
+          <code class="ruby">    init_robot = Robot.new(robot_cord_init[0].to_i,robot_cord_init[1].to_i, robot_cord_init[2])</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="23">
+        <li class="missed" data-hits="0" data-linenumber="19">
           
           
           <code class="ruby">    commands_list = commands.return_commands</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="24">
+        <li class="missed" data-hits="0" data-linenumber="20">
           
           
-          <code class="ruby">    commands.list.each do |cmd|</code>
+          <code class="ruby">    xmax = upper_right_cord[0].to_i</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="25">
+        <li class="missed" data-hits="0" data-linenumber="21">
+          
+          
+          <code class="ruby">    ymax = upper_right_cord[1].to_i</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="22">
+          
+          
+          <code class="ruby">    commands_list.each do |cmd|</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="23">
           
           
           <code class="ruby">      if cmd == &quot;move&quot;</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="26">
+        <li class="missed" data-hits="0" data-linenumber="24">
           
           
-          <code class="ruby">        init_robot.move</code>
+          <code class="ruby">        init_robot.move(xmax, ymax)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="27">
+        <li class="never" data-hits="" data-linenumber="25">
           
           
           <code class="ruby">      elsif cmd == &quot;right&quot;</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="28">
+        <li class="missed" data-hits="0" data-linenumber="26">
           
           
-          <code class="ruby">        init_robot.move_right</code>
+          <code class="ruby">        init_robot.move_right(xmax, ymax)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="29">
+        <li class="never" data-hits="" data-linenumber="27">
           
           
           <code class="ruby">      elsif cmd == &quot;left&quot;</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="30">
+        <li class="missed" data-hits="0" data-linenumber="28">
           
           
-          <code class="ruby">        init_robot.move_left</code>
+          <code class="ruby">        init_robot.move_left(xmax, ymax)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="31">
+        <li class="never" data-hits="" data-linenumber="29">
           
           
           <code class="ruby">      end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="32">
+        <li class="never" data-hits="" data-linenumber="30">
           
           
           <code class="ruby">    end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="33">
+        <li class="never" data-hits="" data-linenumber="31">
           
           
-          <code class="ruby">    </code>
+          <code class="ruby"></code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="34">
+        <li class="missed" data-hits="0" data-linenumber="32">
           
           
           <code class="ruby">      puts init_robot.current_pos</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="35">
+        <li class="never" data-hits="" data-linenumber="33">
           
           
           <code class="ruby">     </code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="36">
+        <li class="never" data-hits="" data-linenumber="34">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="37">
+        <li class="never" data-hits="" data-linenumber="35">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="38">
+        <li class="covered" data-hits="1" data-linenumber="36">
           <span class="hits">1</span>
           
           <code class="ruby">  def start_test</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="39">
+        <li class="missed" data-hits="0" data-linenumber="37">
           
           
           <code class="ruby">    parser = Parse.new</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="40">
+        <li class="missed" data-hits="0" data-linenumber="38">
           
           
           <code class="ruby">    input = Kernel.gets.chomp</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="41">
+        <li class="missed" data-hits="0" data-linenumber="39">
           
           
           <code class="ruby">    command = parser.return_commands(input)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="42">
+        <li class="never" data-hits="" data-linenumber="40">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="43">
+        <li class="never" data-hits="" data-linenumber="41">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="44">
+        <li class="never" data-hits="" data-linenumber="42">
           
           
           <code class="ruby">end</code>
@@ -443,11 +431,11 @@
         <div class="source_table" id="bea33dd781bf6c164addec6a20deafb08ecb730e">
   <div class="header">
     <h3>lib/survey/parser.rb</h3>
-    <h4><span class="yellow">83.33 %</span> covered</h4>
+    <h4><span class="green">100.0 %</span> covered</h4>
     <div>
       <b>6</b> relevant lines. 
-      <span class="green"><b>5</b> lines covered</span> and
-      <span class="red"><b>1</b> lines missed.</span>
+      <span class="green"><b>6</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
   
@@ -502,8 +490,8 @@
           <code class="ruby">  def return_commands</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="9">
-          
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
           
           <code class="ruby">    @commands</code>
         </li>
@@ -673,13 +661,13 @@
         <li class="missed" data-hits="0" data-linenumber="5">
           
           
-          <code class="ruby">    @x = x</code>
+          <code class="ruby">    @x = x.to_i</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="6">
           
           
-          <code class="ruby">    @y = y</code>
+          <code class="ruby">    @y = y.to_i</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="7">
@@ -727,7 +715,7 @@
         <li class="covered" data-hits="1" data-linenumber="14">
           <span class="hits">1</span>
           
-          <code class="ruby">  def move_left</code>
+          <code class="ruby">  def move_left(xmax, ymax)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="15">
@@ -739,7 +727,7 @@
         <li class="missed" data-hits="0" data-linenumber="16">
           
           
-          <code class="ruby">    if @orientation == &quot;east&quot;</code>
+          <code class="ruby">    if @orientation == &quot;east&quot; &amp;&amp; @y + 1 &lt;= ymax</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="17">
@@ -757,7 +745,7 @@
         <li class="never" data-hits="" data-linenumber="19">
           
           
-          <code class="ruby">    elsif orientation == &quot;west&quot;</code>
+          <code class="ruby">    elsif @orientation == &quot;west&quot; &amp;&amp; @y - 1 &gt;= 0</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="20">
@@ -775,7 +763,7 @@
         <li class="never" data-hits="" data-linenumber="22">
           
           
-          <code class="ruby">    elsif orientation == &quot;north&quot;</code>
+          <code class="ruby">    elsif @orientation == &quot;north&quot; &amp;&amp; @x + 1 &lt;= xmax</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="23">
@@ -793,7 +781,7 @@
         <li class="never" data-hits="" data-linenumber="25">
           
           
-          <code class="ruby">    elsif orientation == &quot;south&quot;</code>
+          <code class="ruby">    elsif @orientation == &quot;south&quot; &amp;&amp; @x - 1&gt;= 0</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="26">
@@ -841,7 +829,7 @@
         <li class="covered" data-hits="1" data-linenumber="33">
           <span class="hits">1</span>
           
-          <code class="ruby">  def move_right</code>
+          <code class="ruby">  def move_right(xmax, ymax)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="34">
@@ -853,7 +841,7 @@
         <li class="missed" data-hits="0" data-linenumber="35">
           
           
-          <code class="ruby">    if @orientation == &quot;east&quot;</code>
+          <code class="ruby">    if @orientation == &quot;east&quot; &amp;&amp; @y - 1 &gt;= 0</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="36">
@@ -871,7 +859,7 @@
         <li class="never" data-hits="" data-linenumber="38">
           
           
-          <code class="ruby">    elsif orientation == &quot;west&quot;</code>
+          <code class="ruby">    elsif @orientation == &quot;west&quot; &amp;&amp; @y + 1 &lt;= ymax</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="39">
@@ -889,7 +877,7 @@
         <li class="never" data-hits="" data-linenumber="41">
           
           
-          <code class="ruby">    elsif orientation == &quot;north&quot;</code>
+          <code class="ruby">    elsif @orientation == &quot;north&quot; &amp;&amp; @x - 1&gt;= 0</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="42">
@@ -907,7 +895,7 @@
         <li class="never" data-hits="" data-linenumber="44">
           
           
-          <code class="ruby">    elsif orientation == &quot;south&quot;</code>
+          <code class="ruby">    elsif @orientation == &quot;south&quot; &amp;&amp; @x + 1 &lt;= xmax</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="45">
@@ -955,7 +943,7 @@
         <li class="covered" data-hits="1" data-linenumber="52">
           <span class="hits">1</span>
           
-          <code class="ruby">   def move</code>
+          <code class="ruby">   def move(xmax, ymax)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="53">
@@ -967,7 +955,7 @@
         <li class="missed" data-hits="0" data-linenumber="54">
           
           
-          <code class="ruby">    if @orientation == &quot;east&quot;</code>
+          <code class="ruby">    if @orientation == &quot;east&quot; &amp;&amp; @x + 1 &lt;= xmax</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="55">
@@ -979,7 +967,7 @@
         <li class="never" data-hits="" data-linenumber="56">
           
           
-          <code class="ruby">    elsif orientation == &quot;west&quot;</code>
+          <code class="ruby">    elsif orientation == &quot;west&quot; &amp;&amp; @x - 1&gt;= 0</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="57">
@@ -991,7 +979,7 @@
         <li class="never" data-hits="" data-linenumber="58">
           
           
-          <code class="ruby">    elsif orientation == &quot;north&quot;</code>
+          <code class="ruby">    elsif orientation == &quot;north&quot; &amp;&amp; @y + 1 &lt;= ymax</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="59">
@@ -1003,13 +991,13 @@
         <li class="never" data-hits="" data-linenumber="60">
           
           
-          <code class="ruby">    elsif orientation == &quot;south&quot;</code>
+          <code class="ruby">    elsif orientation == &quot;south&quot; &amp;&amp; @y - 1 &gt;= 0</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="61">
           
           
-          <code class="ruby">      @y = @y + 1  </code>
+          <code class="ruby">      @y = @y - 1  </code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="62">

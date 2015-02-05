@@ -11,18 +11,18 @@ class Robot
     return [@x, @y, @orientation]  
   end
 
-  def move_left
+  def move_left(xmax, ymax)
 
-    if @orientation == "east"
+    if @orientation == "east" && @y + 1 <= ymax
       @orientation = "north"
       @y = @y + 1
-    elsif orientation == "west"
+    elsif @orientation == "west" && @y - 1 >= 0
       @orientation = "south"
       @y = @y - 1
-    elsif orientation == "north"
+    elsif @orientation == "north" && @x + 1 <= xmax
       @orientation = "west"
       @x = @x + 1
-    elsif orientation == "south"
+    elsif @orientation == "south" && @x - 1>= 0
       @orientation = "east"
       @x = @x - 1   
     end
@@ -30,18 +30,18 @@ class Robot
     self.current_pos
   end
 
-  def move_right
+  def move_right(xmax, ymax)
 
-    if @orientation == "east"
+    if @orientation == "east" && @y - 1 >= 0
       @orientation = "south"
       @y = @y - 1
-    elsif orientation == "west"
+    elsif @orientation == "west" && @y + 1 <= ymax
       @orientation = "north"
       @y = @y + 1
-    elsif orientation == "north"
+    elsif @orientation == "north" && @x - 1>= 0
       @orientation = "east"
       @x = @x - 1
-    elsif orientation == "south"
+    elsif @orientation == "south" && @x + 1 <= xmax
       @orientation = "west"
       @x = @x + 1   
     end
@@ -49,16 +49,16 @@ class Robot
     self.current_pos
   end
 
-   def move
+   def move(xmax, ymax)
 
-    if @orientation == "east"
+    if @orientation == "east" && @x + 1 <= xmax
       @x = @x + 1
-    elsif orientation == "west"
+    elsif orientation == "west" && @x - 1>= 0
       @x = @x - 1
-    elsif orientation == "north"
+    elsif orientation == "north" && @y + 1 <= ymax
       @y = @y + 1
-    elsif orientation == "south"
-      @y = @y + 1  
+    elsif orientation == "south" && @y - 1 >= 0
+      @y = @y - 1  
     end
 
     self.current_pos

@@ -7,14 +7,14 @@ describe "Robot" do
   end
 
   it "checks move left" do
-    expect(robot1.move_left).to eq([2, 4, "north"])
+    expect(robot1.move_left(5, 5)).to eq([2, 4, "north"])
   end
 
   it "checks move right" do
-    expect(robot1.move_right).to eq([2, 2, "south"])
+    expect(robot1.move_right(5, 5)).to eq([2, 2, "south"])
   end
 
   it "checks move" do
-    expect(robot1.move).to eq([3, 3, "east"])
+    expect(robot1.move(3, 3)).to eq([3, 3, "east"])
   end
 end
