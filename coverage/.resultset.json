@@ -1,0 +1,15 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/kakulgupta/Desktop/RUBY/Map/lib/Survey.rb": [
+
+      ],
+      "/Users/kakulgupta/Desktop/RUBY/Map/spec/Survey/robot_spec.rb": [
+        1,
+        null,
+        1
+      ]
+    },
+    "timestamp": 1423112275
+  }
+}
