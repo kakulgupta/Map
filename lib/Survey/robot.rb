@@ -41,4 +41,23 @@ class Robot
     return self
   end
 
+  def move_right
+
+    if @orientation == "east"
+      @orientation = "south"
+      @y = @y - 1
+    elsif orientation == "west"
+      @orientation = "north"
+      @y = @y + 1
+    elsif orientation == "north"
+      @orientation = "east"
+      @x = @x - 1
+    elsif orientation == "south"
+      @orientation = "west"
+      @x = @x + 1   
+    end
+
+    return self
+  end
+
 end

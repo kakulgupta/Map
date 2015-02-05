@@ -9,4 +9,8 @@ describe "Robot" do
   it "checks move left" do
     expect(robot1.move_left).to eq(Robot.new(2, 4, "north"))
   end
+
+  it "checks move right" do
+    expect(robot1.move_right).to eq(Robot.new(2, 2, "south"))
+  end
 end
