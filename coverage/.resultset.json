@@ -3,6 +3,8 @@
     "coverage": {
       "/Users/kakulgupta/Desktop/RUBY/Map/lib/Survey.rb": [
         1,
+        1,
+        null,
         1
       ],
       "/Users/kakulgupta/Desktop/RUBY/Map/lib/survey/plain.rb": [
@@ -100,6 +102,40 @@
         null,
         null
       ],
+      "/Users/kakulgupta/Desktop/RUBY/Map/lib/survey/parser.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/kakulgupta/Desktop/RUBY/Map/spec/Survey/parser_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/kakulgupta/Desktop/RUBY/Map/spec/Survey/plain_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        2,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/kakulgupta/Desktop/RUBY/Map/spec/Survey/robot_spec.rb": [
         1,
         null,
@@ -123,6 +159,6 @@
         null
       ]
     },
-    "timestamp": 1423115097
+    "timestamp": 1423116681
   }
 }

@@ -14,26 +14,26 @@
       <img src="./assets/0.8.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2015-02-05T11:14:57+05:30">2015-02-05T11:14:57+05:30</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2015-02-05T11:41:21+05:30">2015-02-05T11:41:21+05:30</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">71.88%</span></span>
+    (<span class="covered_percent"><span class="red">77.78%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.28
+         1.25
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>4</b> files in total.
-    <b>64</b> relevant lines. 
-    <span class="green"><b>46</b> lines covered</span> and
+    <b>7</b> files in total.
+    <b>81</b> relevant lines. 
+    <span class="green"><b>63</b> lines covered</span> and
     <span class="red"><b>18</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -53,9 +53,19 @@
       <tr>
         <td class="strong"><a href="#7cd2d46181c0002053784ca9005bff0bc9cae5a4" class="src_link" title="lib/Survey.rb">lib/Survey.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>2</td>
-        <td>2</td>
-        <td>2</td>
+        <td>4</td>
+        <td>3</td>
+        <td>3</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#bea33dd781bf6c164addec6a20deafb08ecb730e" class="src_link" title="lib/survey/parser.rb">lib/survey/parser.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>11</td>
+        <td>6</td>
+        <td>6</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -78,6 +88,26 @@
         <td>27</td>
         <td>18</td>
         <td>1.3</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#23e0b94f0af57cf0dcb9ec10356d530ca81a2ece" class="src_link" title="spec/Survey/parser_spec.rb">spec/Survey/parser_spec.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>8</td>
+        <td>5</td>
+        <td>5</td>
+        <td>0</td>
+        <td>1.2</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#d9cb08b9ce083c9f5ff0763b7ab94bb87f0e9489" class="src_link" title="spec/Survey/plain_spec.rb">spec/Survey/plain_spec.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>9</td>
+        <td>5</td>
+        <td>5</td>
+        <td>0</td>
+        <td>1.2</td>
       </tr>
       
       <tr>
@@ -111,8 +141,8 @@
     <h3>lib/Survey.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>2</b> relevant lines. 
-      <span class="green"><b>2</b> lines covered</span> and
+      <b>3</b> relevant lines. 
+      <span class="green"><b>3</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -130,6 +160,102 @@
           <span class="hits">1</span>
           
           <code class="ruby">require &quot;survey/robot&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby">#require &quot;survey/application&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &quot;survey/parser&quot;</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="bea33dd781bf6c164addec6a20deafb08ecb730e">
+  <div class="header">
+    <h3>lib/survey/parser.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>6</b> relevant lines. 
+      <span class="green"><b>6</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class Parser</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  attr_reader :commands</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def initialize(command)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    @commands = command.split</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def return_commands</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    @commands</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby">  </code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">end</code>
         </li>
       
     </ol>
@@ -709,6 +835,144 @@
         </li>
       
         <li class="never" data-hits="" data-linenumber="78">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="23e0b94f0af57cf0dcb9ec10356d530ca81a2ece">
+  <div class="header">
+    <h3>spec/Survey/parser_spec.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>5</b> relevant lines. 
+      <span class="green"><b>5</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &quot;spec_helper&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">describe &quot;Parser&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="4">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  let(:parser1){Parser.new(&quot;move left right&quot;)}</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  it &quot;checks parsing of commands&quot; do </code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(parser1.return_commands).to eq([&quot;move&quot;, &quot;left&quot;, &quot;right&quot;])</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="d9cb08b9ce083c9f5ff0763b7ab94bb87f0e9489">
+  <div class="header">
+    <h3>spec/Survey/plain_spec.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>5</b> relevant lines. 
+      <span class="green"><b>5</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;spec_helper&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">describe &quot;Plain&quot; do</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby">  </code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="5">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  let(:plain1){Plain.new(4, 5)}</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  it &quot;Upper right grid coordinates&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(plain1.upper_right.class).to eq(Plain)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
           
           
           <code class="ruby">end</code>
